@@ -33,6 +33,10 @@ return [
      *   ],
      */
     'courses' => [
+        'brunocfalcao/course-beyond-project-management' => [
+            'seeder-class' => 'BeyondProjectManagement\Database\Seeders\BeyondProjectManagementCourseSeeder',
+            'provider-class' => 'BeyondProjectManagement\BeyondProjectManagementServiceProvider',
+        ],
     ],
 
     /**

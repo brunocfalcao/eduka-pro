@@ -12,8 +12,6 @@
     ],
     "require": {
         "php": "^8.2",
-        "brunocfalcao/eduka-installer": "dev-master",
-        "brunocfalcao/eduka-nereus": "dev-master",
         "laravel/framework": "^11.0",
         "laravel/nova": "^4.0"
     },
