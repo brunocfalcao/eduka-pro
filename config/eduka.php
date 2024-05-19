@@ -37,6 +37,29 @@ return [
             'seeder-class' => 'BeyondProjectManagement\Database\Seeders\BeyondProjectManagementCourseSeeder',
             'provider-class' => 'BeyondProjectManagement\BeyondProjectManagementServiceProvider',
         ],
+
+        'brunocfalcao/course-mastering-nova-silver-surfer' => [
+            'seeder-class' => 'MasteringNovaSilverSurfer\Database\Seeders\MasteringNovaSilverSurferCourseSeeder',
+            'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
+        ],
+    ],
+
+    /**
+     * As previous for the courses, the same applies for the backends that
+     * are loaded for the different backend type contexts.
+     * From a perspective of migrations and seeders, first we boot the
+     * backends, and then we boot the courses.
+     */
+    'backends' => [
+        'brunocfalcao/backend-brunofalcao-pro' => [
+            'seeder-class' => 'BrunoFalcaoPro\Database\Seeders\BrunoFalcaoProSeeder',
+            'provider-class' => 'BrunoFalcaoPro\BrunoFalcaoProServiceProvider',
+        ],
+
+        'brunocfalcao/backend-brunofalcao-dev' => [
+            'seeder-class' => 'BrunoFalcaoDev\Database\Seeders\BrunoFalcaoDevSeeder',
+            'provider-class' => 'BrunoFalcaoDev\BrunoFalcaoDevServiceProvider',
+        ],
     ],
 
     /**
@@ -45,18 +68,18 @@ return [
      */
     'events' => [
         'observers' => [
-            'chapter' => true,
-            'course' => true,
-            'link' => true,
-            'order' => true,
-            'backend' => true,
-            'request_log' => true,
-            'series' => true,
-            'subscriber' => true,
-            'tag' => true,
-            'student' => true,
-            'variant' => true,
-            'episode' => true,
+            'chapter' => false,
+            'course' => false,
+            'link' => false,
+            'order' => false,
+            'backend' => false,
+            'request_log' => false,
+            'series' => false,
+            'subscriber' => false,
+            'tag' => false,
+            'student' => false,
+            'variant' => false,
+            'episode' => false,
         ],
     ],
 ];
