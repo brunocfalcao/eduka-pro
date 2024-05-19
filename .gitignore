@@ -16,3 +16,6 @@ Homestead.json
 
 # Eduka packages
 packages
+
+# Other files to ignore
+deploy.bat
