@@ -31,7 +31,8 @@
         "brunocfalcao/eduka-installer": "dev-master",
         "brunocfalcao/eduka-nereus": "dev-master",
         "laravel/framework": "^11.0",
-        "laravel/nova": "^4.0"
+        "laravel/nova": "^4.0",
+        "predis/predis": "^2.2"
     },
     "require-dev": {
         "jubeki/laravel-code-style": "^2.13",

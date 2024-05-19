@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf424afd3dc1c156b5987ba1399dfc8f",
+    "content-hash": "163d285567d4d8754d20f2f360c6d463",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "47aad88b86083a83d32d786203f60b194ac4f1b6"
+                "reference": "cdb18e8a5e8db8fbccd25526fdb5f849795a0820"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -540,7 +540,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "e757eccb887b7a9cc33c2dd47b198408d03d5821"
+                "reference": "7b7db6e8109f36e2c14d386dd25f39b391e864ef"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -727,7 +727,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "8ef5518960c79818354b832a3fa33932d5cc5466"
+                "reference": "9127f0899841a81614883d4efe74e0f229736fde"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -949,7 +949,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "9e894fa35db90d0ed18d1b8e047bd7e5ddc7b591"
+                "reference": "a2b841fc5b229f15613f1011b51722d45343e336"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -10557,6 +10557,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-beyond-project-management": 20,
+        "brunocfalcao/course-mastering-nova-silver-surfer": 20,
         "brunocfalcao/eduka-installer": 20,
         "brunocfalcao/eduka-nereus": 20
     },
