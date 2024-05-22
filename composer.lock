@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.308.0",
+            "version": "3.308.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "806ad75dcb72b6e6569848159e7a350003526bc9"
+                "reference": "bf5f1221d4c5c67d3213150fb91dfb5ce627227b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/806ad75dcb72b6e6569848159e7a350003526bc9",
-                "reference": "806ad75dcb72b6e6569848159e7a350003526bc9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf5f1221d4c5c67d3213150fb91dfb5ce627227b",
+                "reference": "bf5f1221d4c5c67d3213150fb91dfb5ce627227b",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.1"
             },
-            "time": "2024-05-21T18:06:10+00:00"
+            "time": "2024-05-22T18:05:56+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "5e23f9b0a85389af01d904cf3ea10fb73945cfa9"
+                "reference": "8ad4fccc84f258883f27e7277bd25c6a9502c242"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -540,7 +540,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "7b7db6e8109f36e2c14d386dd25f39b391e864ef"
+                "reference": "358b515afafd943855007ab6814c9df7bfe44f73"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -727,7 +727,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "b91f1e294c69d2c3891a8f2b5dd02751fce0474f"
+                "reference": "a7562a5fea8c1cfaca73d7a789406894d603e244"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -767,7 +767,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "4f835a62e47c36dc6ef8d8cbb73c24f987b83616"
+                "reference": "3a25dd1b0679dbd98e3bb210651cbfc1de19cb20"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -807,7 +807,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "9030c2c591b4478496912b984c9ec29d6b10ad29"
+                "reference": "696b69e247d17ea41f16ae3b772837fa69bf2487"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -846,7 +846,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "1f5efcbd9750aa3cd145ae1de5061979d7694b52"
+                "reference": "c8c2cf00a5c5c9d208bda81d6290779ccad18969"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -989,7 +989,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "c51b6b89891e51b10c7f8d6abcb77849b9b2d478"
+                "reference": "09d25ce42eea9624dc9bf2092915f76bb6758a38"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1109,7 +1109,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "26ac798e00aafd4da0cb162a145e1442f056a433"
+                "reference": "9550607a6c9888afa51abf07f7e0626fc3e821c6"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1215,7 +1215,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "1bb6e877684ae4b918dbbb8227e4a55f2acfd655"
+                "reference": "7910d89d732f2e5313ce0cd0cf5a179c62ab9940"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
