@@ -42,6 +42,11 @@ return [
             'seeder-class' => 'MasteringNovaSilverSurfer\Database\Seeders\MasteringNovaSilverSurferCourseSeeder',
             'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
         ],
+
+        'brunocfalcao/course-mastering-nova-orion' => [
+            'seeder-class' => 'MasteringNovaOrion\Database\Seeders\MasteringNovaOrionCourseSeeder',
+            'provider-class' => 'MasteringNovaOrion\MasteringNovaOrionServiceProvider',
+        ],
     ],
 
     /**
@@ -75,7 +80,7 @@ return [
             'backend' => false,
             'request_log' => false,
             'series' => false,
-            'subscriber' => false,
+            'subscriber' => true,
             'tag' => false,
             'student' => false,
             'variant' => false,
