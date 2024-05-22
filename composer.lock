@@ -540,12 +540,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "358b515afafd943855007ab6814c9df7bfe44f73"
+                "reference": "49a244a1e0d9cb7ae634dc8d93e17abb7171ec81"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
                 "blade-ui-kit/blade-icons": "^1.6",
-                "brunocfalcao/backend-brunofalcao-pro": "dev-master",
                 "brunocfalcao/blade-feather-icons": "^4.0",
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "php": "^8.2"
