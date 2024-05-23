@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "49a244a1e0d9cb7ae634dc8d93e17abb7171ec81"
+                "reference": "ea50d1fb5cf21e25e7b28d935b3f2b917d4cf758"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -684,7 +684,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "a7562a5fea8c1cfaca73d7a789406894d603e244"
+                "reference": "44b0cd14add0b60abdd403aaeb1732c3102bfbce"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -721,31 +721,23 @@
         {
             "name": "brunocfalcao/course-mastering-nova-silver-surfer",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/course-mastering-nova-silver-surfer.git",
-                "reference": "1581c125a868f7a0c932c0677f97b7070f2bb0cc"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova-silver-surfer/zipball/1581c125a868f7a0c932c0677f97b7070f2bb0cc",
-                "reference": "1581c125a868f7a0c932c0677f97b7070f2bb0cc",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/course-mastering-nova-silver-surfer",
+                "reference": "1581c125a868f7a0c932c0677f97b7070f2bb0cc"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "php": "^8.2"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BeyondProjectManagement\\": "src/",
-                    "BeyondProjectManagement\\Database\\Seeders\\": "database/seeders/"
+                    "MasteringNovaSilverSurfer\\": "src/",
+                    "MasteringNovaSilverSurfer\\Database\\Seeders\\": "database/seeders/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -756,16 +748,15 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Course Beyond Project Management",
-            "homepage": "https://github.com/brunocfalcao/course-beyond-project-management",
+            "description": "Course Mastering Nova Silver Surfer",
+            "homepage": "https://github.com/brunocfalcao/course-mastering-nova-silver-surfer",
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/course-mastering-nova-silver-surfer/issues",
-                "source": "https://github.com/brunocfalcao/course-mastering-nova-silver-surfer/tree/master"
-            },
-            "time": "2024-05-23T11:23:11+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
@@ -3002,17 +2993,17 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.34.0",
+            "version": "4.34.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "71d890043d4c03a16f6b8d0d3afd136f0f05e8e5"
+                "reference": "4e85f31d46b70291f24ccf2162096db87e82e8b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-71d890043d4c03a16f6b8d0d3afd136f0f05e8e5-zip-46847c.zip",
-                "reference": "71d890043d4c03a16f6b8d0d3afd136f0f05e8e5",
-                "shasum": "75d469734040e79e02f3896992623541bc620e53"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-4e85f31d46b70291f24ccf2162096db87e82e8b2-zip-023aa4.zip",
+                "reference": "4e85f31d46b70291f24ccf2162096db87e82e8b2",
+                "shasum": "ad0981b85da448ecf8ffe38ef0d49c342734708e"
             },
             "require": {
                 "brick/money": "^0.5|^0.6|^0.7|^0.8|^0.9",
@@ -3122,9 +3113,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.34.0"
+                "source": "https://github.com/laravel/nova/tree/v4.34.2"
             },
-            "time": "2024-05-23T00:19:30+00:00"
+            "time": "2024-05-23T15:59:51+00:00"
         },
         {
             "name": "laravel/prompts",
