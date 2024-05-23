@@ -8,6 +8,20 @@
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "path",
+            "url": "packages/eduka/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/brunocfalcao/*",
+            "options": {
+                "symlink": true
+            }
         }
     ],
     "require": {
