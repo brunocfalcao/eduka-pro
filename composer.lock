@@ -766,7 +766,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "38130323c56d4e69743c4292ff402bda12af6c80"
+                "reference": "e1f2368d3ea40d5cb0b67ec1b063462ea621a22e"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -988,7 +988,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "09d25ce42eea9624dc9bf2092915f76bb6758a38"
+                "reference": "343fe80dc3b8cd165987da218a85deeea96d46dc"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1158,7 +1158,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "18010b5c9a632e3d5e1a5e08f69ea2eaf22bb524"
+                "reference": "4955361f672dbb21ecde3f674e33de27eee58271"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -10569,7 +10569,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "brunocfalcao/course-beyond-project-management": 20,
         "brunocfalcao/course-mastering-nova-orion": 20,
         "brunocfalcao/course-mastering-nova-silver-surfer": 20,
         "brunocfalcao/eduka-installer": 20,
