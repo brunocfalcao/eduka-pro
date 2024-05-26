@@ -27,8 +27,6 @@
     "require": {
         "php": "^8.2",
         "brunocfalcao/course-beyond-project-management": "dev-master",
-        "brunocfalcao/course-mastering-nova-orion": "dev-master",
-        "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
         "brunocfalcao/eduka-installer": "dev-master",
         "brunocfalcao/eduka-nereus": "dev-master",
         "laravel/framework": "^11.0",
