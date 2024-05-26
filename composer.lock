@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf7a2d1efdb3ac5e630a3022fa1a51d0",
+    "content-hash": "87be0539fa1bab1fdc9123a59e2d7b22",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -493,6 +493,48 @@
             "time": "2023-11-26T16:51:39+00:00"
         },
         {
+            "name": "brunocfalcao/backend-brunofalcao-dev",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/backend-brunofalcao-dev",
+                "reference": "739f43e9a059ba30325d54ed838f012dd1dcf489"
+            },
+            "require": {
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrunoFalcaoDev\\": "src",
+                    "BrunoFalcaoDev\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcao",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "homepage": "https://www.brunofalcao.dev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Eduka backend - brunofalcao.dev",
+            "homepage": "https://github.com/brunocfalcao/backend-brunofalcao-dev",
+            "keywords": [
+                "Bruno Falcao",
+                "Laravel",
+                "Tutorials"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "brunocfalcao/backend-brunofalcao-pro",
             "version": "dev-master",
             "dist": {
@@ -670,6 +712,86 @@
             ],
             "description": "Course Beyond Project Management",
             "homepage": "https://github.com/brunocfalcao/course-beyond-project-management",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/course-mastering-nova-orion",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/course-mastering-nova-orion",
+                "reference": "353ac7bba79c683fe6c10b30f04c976f5c6b5a3f"
+            },
+            "require": {
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "brunocfalcao/eduka-payments": "dev-master",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MasteringNovaOrion\\": "src/",
+                    "MasteringNovaOrion\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mastering Nova - Orion edition",
+            "homepage": "https://github.com/brunocfalcao/course-mastering-nova-orion",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/course-mastering-nova-silver-surfer",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/course-mastering-nova-silver-surfer",
+                "reference": "977cab258f34634a6e1ece33c3adc619864000a6"
+            },
+            "require": {
+                "brunocfalcao/backend-brunofalcao-dev": "dev-master",
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "php": "^8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MasteringNovaSilverSurfer\\": "src/",
+                    "MasteringNovaSilverSurfer\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Course Mastering Nova Silver Surfer",
+            "homepage": "https://github.com/brunocfalcao/course-mastering-nova-silver-surfer",
             "keywords": [
                 "brunocfalcao"
             ],
@@ -1092,7 +1214,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "8de9a16db0c78851f61cfad70f45e7d274c3904b"
+                "reference": "76001b5569c719e03732c5cf5981092a0119ca9c"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -10450,6 +10572,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-beyond-project-management": 20,
+        "brunocfalcao/course-mastering-nova-silver-surfer": 20,
         "brunocfalcao/eduka-installer": 20,
         "brunocfalcao/eduka-nereus": 20
     },
