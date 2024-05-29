@@ -76,7 +76,7 @@ return [
             'chapter' => false,
             'course' => false,
             'link' => false,
-            'order' => false,
+            'order' => true,
             'backend' => false,
             'request_log' => false,
             'series' => false,
