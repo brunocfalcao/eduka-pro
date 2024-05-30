@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.308.4",
+            "version": "3.308.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c88e9df7e076b6e2c652a1c87d2c3af0a9ac30b6"
+                "reference": "81386b0d0fd18ae8015f279247f714c5d5acb696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c88e9df7e076b6e2c652a1c87d2c3af0a9ac30b6",
-                "reference": "c88e9df7e076b6e2c652a1c87d2c3af0a9ac30b6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/81386b0d0fd18ae8015f279247f714c5d5acb696",
+                "reference": "81386b0d0fd18ae8015f279247f714c5d5acb696",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.5"
             },
-            "time": "2024-05-28T18:05:38+00:00"
+            "time": "2024-05-29T18:08:33+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -686,7 +686,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-beyond-project-management",
-                "reference": "bd4d80342ae09d9a6af7f9b01611c06f27055790"
+                "reference": "6483739884b8e9e0fd0290f84d04638d59eefade"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -726,7 +726,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "780f3be6fc05ab151575d5b55b1a7fd2ca0bec71"
+                "reference": "9bc261f1a26f4238c6a6859a71242a0dc18d5532"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -766,7 +766,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "de4a270093fc073e26d4bf8fc7980b4aad9c13b1"
+                "reference": "1e1f1cc6a8aee193b6ffe84177f3477763262061"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -845,7 +845,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "8e37b7eaaed7a3428c2c00326663cce5ba83cd1d"
+                "reference": "4de0d14a46a232cce81502d2314cd35ecee305d3"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -894,7 +894,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-helpers",
-                "reference": "20c788ae3b59a570345a90587a0b999f63740dee"
+                "reference": "786254cd8cbe638e934959f1d3d8ca527bd3d2a9"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -991,7 +991,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "f800686fd3db2dc605e7db1232e6283958f51e87"
+                "reference": "ec91fffc59af74e4258cd8268cdb89a9215cc588"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1039,7 +1039,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "17a21789f746d5f161043d6fc7d73bd08de09801"
+                "reference": "c6ad695daf65b1e94820ca033f3ab4db43d0e33f"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1099,7 +1099,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "8c841ed83f39777d649f2a8bf50e284411be4ad4"
+                "reference": "f008a49e9b5d66521b254fba2a513908c2ca9846"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1149,7 +1149,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "df0a9a46068ae4dd8f7289e0108ddd17f41657b7"
+                "reference": "8d936b2b1ed07b2d5344174e3e2f7a1b3956f7c4"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1202,7 +1202,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "060bf096023c61e684eaa33182ee2b295ba6de49"
+                "reference": "70f93f6ed6fec927652e1991698a4ad1f69a27f3"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -2724,16 +2724,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.9.1",
+            "version": "v11.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7"
+                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7",
-                "reference": "60167ce91c59ed5eea2ad4f2a7b6d686fb103ba7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2b3e8d75f10b0ed17416282946355dc026bf326c",
+                "reference": "2b3e8d75f10b0ed17416282946355dc026bf326c",
                 "shasum": ""
             },
             "require": {
@@ -2925,7 +2925,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-05-28T18:16:41+00:00"
+            "time": "2024-05-30T09:40:11+00:00"
         },
         {
             "name": "laravel/nova",
@@ -9187,16 +9187,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.58.0",
+            "version": "v3.58.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "55d3483c80c09f91d876aa4e2971ce349d07310c"
+                "reference": "04e9424025677a86914b9a4944dbbf4060bb0aff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/55d3483c80c09f91d876aa4e2971ce349d07310c",
-                "reference": "55d3483c80c09f91d876aa4e2971ce349d07310c",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/04e9424025677a86914b9a4944dbbf4060bb0aff",
+                "reference": "04e9424025677a86914b9a4944dbbf4060bb0aff",
                 "shasum": ""
             },
             "require": {
@@ -9275,7 +9275,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.58.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.58.1"
             },
             "funding": [
                 {
@@ -9283,7 +9283,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-28T16:55:30+00:00"
+            "time": "2024-05-29T16:39:07+00:00"
         },
         {
             "name": "jubeki/laravel-code-style",
@@ -10318,6 +10318,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-beyond-project-management": 20,
+        "brunocfalcao/course-mastering-nova-orion": 20,
         "brunocfalcao/course-mastering-nova-silver-surfer": 20,
         "brunocfalcao/eduka-installer": 20
     },
