@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "1cb6519a29ea2c6b49874dc096a8b548594d7982"
+                "reference": "6215a368abe4ac64ac90ac849925047cf5bc464b"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -686,7 +686,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-beyond-project-management",
-                "reference": "6483739884b8e9e0fd0290f84d04638d59eefade"
+                "reference": "e624a3268e436ac64699bd40ee1bc035f651ea2d"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -766,7 +766,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "1e1f1cc6a8aee193b6ffe84177f3477763262061"
+                "reference": "665654be910f209a10d33ea8a11d97b787c542f5"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -894,7 +894,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-helpers",
-                "reference": "786254cd8cbe638e934959f1d3d8ca527bd3d2a9"
+                "reference": "8b5eedf47db024ca0bfa0a1b9d10d2461489c9d8"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -991,7 +991,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "ec91fffc59af74e4258cd8268cdb89a9215cc588"
+                "reference": "14723cbb0db238af0ffe4f895408251c5b7b4f25"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1039,7 +1039,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "c6ad695daf65b1e94820ca033f3ab4db43d0e33f"
+                "reference": "e2c54187b1111f034121cb59c688f5021fbcba36"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1202,7 +1202,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "70f93f6ed6fec927652e1991698a4ad1f69a27f3"
+                "reference": "f4d3092d7f6e162a8a81bd35cf992fc9bef921a3"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
