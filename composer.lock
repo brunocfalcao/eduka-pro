@@ -1266,12 +1266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-services.git",
-                "reference": "ddaeaa60a657c6546304d88e8d0dc179ba4535f0"
+                "reference": "eb0f35b061dfd3c1211291547257ac70ef8eec09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-services/zipball/ddaeaa60a657c6546304d88e8d0dc179ba4535f0",
-                "reference": "ddaeaa60a657c6546304d88e8d0dc179ba4535f0",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-services/zipball/eb0f35b061dfd3c1211291547257ac70ef8eec09",
+                "reference": "eb0f35b061dfd3c1211291547257ac70ef8eec09",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-services/issues",
                 "source": "https://github.com/brunocfalcao/eduka-services/tree/master"
             },
-            "time": "2024-06-03T08:27:55+00:00"
+            "time": "2024-06-03T08:48:53+00:00"
         },
         {
             "name": "brunocfalcao/eduka-ui",
