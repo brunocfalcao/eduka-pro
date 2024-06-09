@@ -38,6 +38,11 @@ return [
             'provider-class' => 'BeyondProjectManagement\BeyondProjectManagementServiceProvider',
         ],
 
+        'brunocfalcao/course-communication-effectiveness' => [
+            'seeder-class' => 'CommunicationEffectiveness\Database\Seeders\CommunicationEffectivenessCourseSeeder',
+            'provider-class' => 'CommunicationEffectiveness\CommunicationEffectivenessServiceProvider',
+        ],
+
         'brunocfalcao/course-mastering-nova-silver-surfer' => [
             'seeder-class' => 'MasteringNovaSilverSurfer\Database\Seeders\MasteringNovaSilverSurferCourseSeeder',
             'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
