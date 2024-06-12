@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.311.2",
+            "version": "3.313.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "731cd73062909594c5f7443413c4c4c40ed1c25c"
+                "reference": "2f5f173300888d6f630ce24751a6ee0f1e6d72e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/731cd73062909594c5f7443413c4c4c40ed1c25c",
-                "reference": "731cd73062909594c5f7443413c4c4c40ed1c25c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2f5f173300888d6f630ce24751a6ee0f1e6d72e8",
+                "reference": "2f5f173300888d6f630ce24751a6ee0f1e6d72e8",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.311.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.313.0"
             },
-            "time": "2024-06-07T18:05:33+00:00"
+            "time": "2024-06-11T18:20:58+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "a765f706a92453f93ef53a15ba8bb8c93d9cc951"
+                "reference": "c62eb1252c407a4c01a2e18431575411c02be8c7"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -540,7 +540,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "14f07bcc0ba03f5f4fd320d74cb322e1306bc094"
+                "reference": "389aca8c6c431c995a1e343e42886ba7e771bc08"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -726,7 +726,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-communication-effectiveness",
-                "reference": "b9aecd0f79d605fd26975296d1d345ffd3872f34"
+                "reference": "fd849fcef4d7b215d697ec4e847e82e8567f83bb"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -885,7 +885,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "4de0d14a46a232cce81502d2314cd35ecee305d3"
+                "reference": "4b8ade3ed2a5ee1a15a574f0234bb28e53fc95ea"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -934,7 +934,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-helpers",
-                "reference": "dbd8a3881db60d39a2831148290d5a1246d5bcec"
+                "reference": "05d46151be34a95b71a43c705b83d68fe28b4382"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -1079,7 +1079,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "dcd29610220f33e932bd70c219c774dd02f72487"
+                "reference": "a97b6f62273b5aac31a9b2b17a3aab69c4e1577d"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1139,7 +1139,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "8a901d63964a7fad3337aa0ba2d9408b48e341ce"
+                "reference": "81fc5936338850f25be67aaef4e083d443df7df3"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1247,7 +1247,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "7c2495b632c9be2f97d81f3b959383cf66d17397"
+                "reference": "7bee79cb6f716ff5ab84a839bac0e4ba9821e553"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -10243,16 +10243,16 @@
         },
         {
             "name": "react/stream",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "6fbc9672905c7d5a885f2da2fc696f65840f4a66"
+                "reference": "1e5b0acb8fe55143b5b426817155190eb6f5b18d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/6fbc9672905c7d5a885f2da2fc696f65840f4a66",
-                "reference": "6fbc9672905c7d5a885f2da2fc696f65840f4a66",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/1e5b0acb8fe55143b5b426817155190eb6f5b18d",
+                "reference": "1e5b0acb8fe55143b5b426817155190eb6f5b18d",
                 "shasum": ""
             },
             "require": {
@@ -10262,7 +10262,7 @@
             },
             "require-dev": {
                 "clue/stream-filter": "~1.2",
-                "phpunit/phpunit": "^9.5 || ^5.7 || ^4.8.35"
+                "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36"
             },
             "type": "library",
             "autoload": {
@@ -10309,7 +10309,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/stream/issues",
-                "source": "https://github.com/reactphp/stream/tree/v1.3.0"
+                "source": "https://github.com/reactphp/stream/tree/v1.4.0"
             },
             "funding": [
                 {
@@ -10317,7 +10317,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-06-16T10:52:11+00:00"
+            "time": "2024-06-11T12:45:25+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -10662,6 +10662,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-beyond-project-management": 20,
+        "brunocfalcao/course-communication-effectiveness": 20,
         "brunocfalcao/course-mastering-nova-orion": 20,
         "brunocfalcao/course-mastering-nova-silver-surfer": 20,
         "brunocfalcao/eduka-installer": 20,
