@@ -498,7 +498,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "c62eb1252c407a4c01a2e18431575411c02be8c7"
+                "reference": "a9b8f5d191657fae651ea99a3278e9e6f24f4aba"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -540,7 +540,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "389aca8c6c431c995a1e343e42886ba7e771bc08"
+                "reference": "7b3376c59d0e1613e00a7368875737bc96e290fe"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -686,7 +686,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-beyond-project-management",
-                "reference": "d151af67604540fef9a3825a53be84cad4d54f71"
+                "reference": "6c686077d74128c4bc13b4a9c699924fb03ec2d7"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -726,7 +726,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-communication-effectiveness",
-                "reference": "fd849fcef4d7b215d697ec4e847e82e8567f83bb"
+                "reference": "d51fc3a602f872673986d0e44c25cb5b2406de6b"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -766,7 +766,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "b51127c0575f300bd249ee8f4d2a36fe36bfa105"
+                "reference": "44496d3cbc16b3e35d08c64c5dbafa1b703798e9"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -806,7 +806,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "a1670a7059b25470983627cbaa53cb228097fe08"
+                "reference": "6abfc76271e5e9e7968942fb7c0a4e955f657170"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -1730,16 +1730,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a"
+                "reference": "8edbce73bc1aa2251ba8c754fc440f8e02c661bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a",
-                "reference": "61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/8edbce73bc1aa2251ba8c754fc440f8e02c661bc",
+                "reference": "8edbce73bc1aa2251ba8c754fc440f8e02c661bc",
                 "shasum": ""
             },
             "require": {
@@ -1752,16 +1752,16 @@
                 "doctrine/coding-standard": "12.0.0",
                 "fig/log-test": "^1",
                 "jetbrains/phpstorm-stubs": "2023.2",
-                "phpstan/phpstan": "1.10.58",
-                "phpstan/phpstan-phpunit": "1.3.15",
-                "phpstan/phpstan-strict-rules": "^1.5",
-                "phpunit/phpunit": "10.5.9",
-                "psalm/plugin-phpunit": "0.18.4",
+                "phpstan/phpstan": "1.11.1",
+                "phpstan/phpstan-phpunit": "1.4.0",
+                "phpstan/phpstan-strict-rules": "^1.6",
+                "phpunit/phpunit": "10.5.20",
+                "psalm/plugin-phpunit": "0.19.0",
                 "slevomat/coding-standard": "8.13.1",
-                "squizlabs/php_codesniffer": "3.9.0",
+                "squizlabs/php_codesniffer": "3.9.2",
                 "symfony/cache": "^6.3.8|^7.0",
                 "symfony/console": "^5.4|^6.3|^7.0",
-                "vimeo/psalm": "5.21.1"
+                "vimeo/psalm": "5.24.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -1818,7 +1818,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.0.2"
+                "source": "https://github.com/doctrine/dbal/tree/4.0.3"
             },
             "funding": [
                 {
@@ -1834,7 +1834,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-25T08:29:52+00:00"
+            "time": "2024-06-12T06:58:42+00:00"
         },
         {
             "name": "doctrine/deprecations",
