@@ -78,18 +78,18 @@ return [
      */
     'events' => [
         'observers' => [
-            'chapter' => false,
-            'course' => false,
+            'chapter' => true,
+            'course' => true,
             'link' => false,
             'order' => true,
             'backend' => false,
-            'request_log' => false,
+            'request_log' => true,
             'series' => false,
             'subscriber' => true,
             'tag' => false,
             'student' => false,
             'variant' => false,
-            'episode' => false,
+            'episode' => true,
         ],
     ],
 ];
