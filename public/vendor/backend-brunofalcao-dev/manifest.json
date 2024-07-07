@@ -1,10 +1,6 @@
 {
-  "_axios-B4uVmeYG.js": {
-    "file": "assets/axios-B4uVmeYG.js",
-    "name": "axios"
-  },
   "resources/css/app.css": {
-    "file": "assets/app-BTxnHZZY.css",
+    "file": "assets/app-DrAeVXGt.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -37,25 +33,22 @@
     "src": "resources/images/logo.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app-nOliJJ0A.js",
+    "file": "assets/app-BwDpqcm8.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "imports": [
-      "_axios-B4uVmeYG.js"
+      "resources/js/bootstrap.js"
     ]
   },
   "resources/js/bootstrap.js": {
-    "file": "assets/bootstrap-nOliJJ0A.js",
+    "file": "assets/bootstrap-C1-XIpUa.js",
     "name": "bootstrap",
     "src": "resources/js/bootstrap.js",
-    "isEntry": true,
-    "imports": [
-      "_axios-B4uVmeYG.js"
-    ]
+    "isEntry": true
   },
   "resources/js/dashboard.js": {
-    "file": "assets/dashboard-Pa-TdpMb.js",
+    "file": "assets/dashboard-DGv0QfzC.js",
     "name": "dashboard",
     "src": "resources/js/dashboard.js",
     "isEntry": true
@@ -64,6 +57,17 @@
     "file": "assets/navigation-CSxjTNOK.js",
     "name": "navigation",
     "src": "resources/js/navigation.js",
+    "isEntry": true
+  },
+  "resources/libraries/nice-select2/nice-select2.css": {
+    "file": "assets/nice-select2-zwuzBcPq.css",
+    "src": "resources/libraries/nice-select2/nice-select2.css",
+    "isEntry": true
+  },
+  "resources/libraries/nice-select2/nice-select2.js": {
+    "file": "assets/nice-select2-WjGh19YG.js",
+    "name": "nice-select2",
+    "src": "resources/libraries/nice-select2/nice-select2.js",
     "isEntry": true
   }
 }

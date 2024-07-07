@@ -2,7 +2,10 @@
     "name": "brunocfalcao/eduka-pro",
     "type": "project",
     "description": "Eduka LMS site framework (abstract)",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "repositories": [
         {
@@ -31,7 +34,6 @@
         "brunocfalcao/course-mastering-nova-orion": "dev-master",
         "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
         "brunocfalcao/eduka-installer": "dev-master",
-        "brunocfalcao/eduka-nova": "dev-master",
         "laravel/framework": "^11.0",
         "laravel/nova": "^4.0",
         "predis/predis": "^2.2"
