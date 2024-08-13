@@ -22,3 +22,5 @@ deploy.bat
 composer.local.backup.json
 composer.ploi.backup.json
 composer.ploi.json
+
+public
