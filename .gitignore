@@ -24,4 +24,4 @@ composer.ploi.backup.json
 composer.ploi.json
 auth.json
 
-public/
+public/*
