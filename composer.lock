@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.320.1",
+            "version": "3.320.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "653549ab0e274747a46a96fd375df642704f21e2"
+                "reference": "dbae075b861316237d63418715f8bf4bfdd9d33d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/653549ab0e274747a46a96fd375df642704f21e2",
-                "reference": "653549ab0e274747a46a96fd375df642704f21e2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/dbae075b861316237d63418715f8bf4bfdd9d33d",
+                "reference": "dbae075b861316237d63418715f8bf4bfdd9d33d",
                 "shasum": ""
             },
             "require": {
@@ -223,9 +223,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.320.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.320.2"
             },
-            "time": "2024-08-15T18:07:13+00:00"
+            "time": "2024-08-16T18:06:17+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -501,7 +501,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-dev",
-                "reference": "2516a28318f02a68f9e1b67a2441434cdd859b91"
+                "reference": "4f176ad85dbdb7d9b4aa68d4521f64f4f12b2ecb"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -549,7 +549,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/backend-brunofalcao-pro",
-                "reference": "ea47e098c7e12212d82516945384b5a0170a2228"
+                "reference": "bb55af6445822f672f6b63190e41b53fb64b456e"
             },
             "require": {
                 "blade-ui-kit/blade-heroicons": "^2.3",
@@ -695,7 +695,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-beyond-project-management",
-                "reference": "c18a7d3bef521ea12b0bf0068469d292a9c01837"
+                "reference": "0c31dc40c55e108c4944bf6c69e750be3c43a2c4"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -735,7 +735,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-communication-effectiveness",
-                "reference": "23466744c19055f7762ce4f3cb3fcee87c256b22"
+                "reference": "e070effcbadd5c472badab2640ba5dd7c091512b"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -775,7 +775,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "1f6c1670781cb2958ec9c080f0bdd9f63fc89745"
+                "reference": "b191422ffb66073456b63f3c3d85b93aef496d11"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -815,7 +815,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "e57a0ce1da4aa93988bd5f21ee62f24107dea46c"
+                "reference": "4933ca8a8c119ae3badabb9f747a2ffbd2bad7b4"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -894,7 +894,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "12d585d3f60a9ad033e79a61e48978c904746446"
+                "reference": "46c0ff1fab0423ab75367215923d2a90d9c4fb58"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -994,7 +994,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-installer",
-                "reference": "5ab36863779d363bb06b8c9ab509e15f55d72c94"
+                "reference": "0bdc303ab8720c89645fb599c292514908430a52"
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
@@ -1040,7 +1040,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "110bc85c275fab9edc27b4f5b4c629dcd1f1b4d7"
+                "reference": "b66280421652502ae3bd6d80d3cbe757287cadb9"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1088,7 +1088,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "6c150a6148e300c15386b052f84b8d43ba191117"
+                "reference": "ccccdfd0edb8bb74e3a4582a7d48b806245b112e"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1148,7 +1148,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "3430499bf7d4d709bcc655591418ea1de71d6acf"
+                "reference": "acc3cc1ff70621fcd572ecb8dc46647c8ae21987"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1259,7 +1259,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "1a290ae677865a88c2aea1a3da03597fc19612b2"
+                "reference": "1bab2e30e0f85a090a4164b2184cd6cca4103cb2"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
