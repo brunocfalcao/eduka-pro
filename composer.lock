@@ -695,7 +695,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-beyond-project-management",
-                "reference": "0c31dc40c55e108c4944bf6c69e750be3c43a2c4"
+                "reference": "b7a7743c149a27a8160716618644453bfb2a404a"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -735,7 +735,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-communication-effectiveness",
-                "reference": "e070effcbadd5c472badab2640ba5dd7c091512b"
+                "reference": "df7b3aaa3919b35787ba3f5ec791844124b8f5e7"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-pro": "dev-master",
@@ -775,7 +775,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "b191422ffb66073456b63f3c3d85b93aef496d11"
+                "reference": "6b06110a4a8d4e9c4aaf8c2b13815fd5260b010f"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -815,7 +815,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "4933ca8a8c119ae3badabb9f747a2ffbd2bad7b4"
+                "reference": "ea274ed511842dee01e9541d5ab7172ae8335fde"
             },
             "require": {
                 "brunocfalcao/backend-brunofalcao-dev": "dev-master",
@@ -894,7 +894,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "46c0ff1fab0423ab75367215923d2a90d9c4fb58"
+                "reference": "297ae8d869a3fbcfb482cad6406fa11af1399e77"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1040,7 +1040,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "b66280421652502ae3bd6d80d3cbe757287cadb9"
+                "reference": "514e16b99689449646cb4523917749f159ffa496"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1148,7 +1148,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "acc3cc1ff70621fcd572ecb8dc46647c8ae21987"
+                "reference": "e0211cd45c1b61b23a76d02c2dac6b29f3acf0b5"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1259,7 +1259,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "1bab2e30e0f85a090a4164b2184cd6cca4103cb2"
+                "reference": "189e2c0490f7d039316e273d3378a4ab72eb58c5"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1504,7 +1504,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-vimeo-client",
-                "reference": "3982ab30ccc0969e5f9ab6751876703a4b1a1117"
+                "reference": "2d738f885cc247929e4ac68e7344b3774d54dd2e"
             },
             "require": {
                 "graham-campbell/manager": "^5.0",
@@ -4673,16 +4673,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.7.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "cb4374784c87d0a0294e8513a52eb63c0aff3139"
+                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cb4374784c87d0a0294e8513a52eb63c0aff3139",
-                "reference": "cb4374784c87d0a0294e8513a52eb63c0aff3139",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
+                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
                 "shasum": ""
             },
             "require": {
@@ -4775,7 +4775,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-16T22:29:20+00:00"
+            "time": "2024-08-19T06:22:39+00:00"
         },
         {
             "name": "nette/schema",
