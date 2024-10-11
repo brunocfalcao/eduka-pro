@@ -10,6 +10,23 @@
 |
 */
 
+use Eduka\Cube\Models\Episode;
+use Eduka\Nereus\Http\Controllers\ChapterPageController;
+use Eduka\Nereus\Http\Controllers\CoursePageController;
+use Eduka\Nereus\Http\Controllers\EpisodePageController;
+use Illuminate\Support\Facades\Route;
+
+Route::get(
+    'courses/{course:canonical}',
+    [CoursePageController::class, 'index']
+)->name('course.view');
+
+Route::get(
+    'chapters/{chapter:id}',
+    [ChapterPageController::class, 'index']
+)
+    ->name('chapter.view');
+
 //Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

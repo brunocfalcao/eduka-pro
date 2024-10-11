@@ -15,9 +15,7 @@ return [
      *
      * E.g.: \Course\CourseServiceProvider::class
      */
-    'load_providers' => [
-
-    ],
+    'load_providers' => [],
 
     /**
      * All the courses that are loaded into eduka, even if it's not rendered
@@ -33,25 +31,26 @@ return [
      *   ],
      */
     'courses' => [
-        'brunocfalcao/course-beyond-project-management' => [
+        /*'brunocfalcao/course-beyond-project-management' => [
             'seeder-class' => 'BeyondProjectManagement\Database\Seeders\BeyondProjectManagementCourseSeeder',
             'provider-class' => 'BeyondProjectManagement\BeyondProjectManagementServiceProvider',
         ],
-
-        'brunocfalcao/course-communication-effectiveness' => [
+        */
+        /*'brunocfalcao/course-communication-effectiveness' => [
             'seeder-class' => 'CommunicationEffectiveness\Database\Seeders\CommunicationEffectivenessCourseSeeder',
             'provider-class' => 'CommunicationEffectiveness\CommunicationEffectivenessServiceProvider',
-        ],
+        ],*/
 
         'brunocfalcao/course-mastering-nova-silver-surfer' => [
             'seeder-class' => 'MasteringNovaSilverSurfer\Database\Seeders\MasteringNovaSilverSurferCourseSeeder',
             'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
         ],
 
+        /*
         'brunocfalcao/course-mastering-nova-orion' => [
             'seeder-class' => 'MasteringNovaOrion\Database\Seeders\MasteringNovaOrionCourseSeeder',
             'provider-class' => 'MasteringNovaOrion\MasteringNovaOrionServiceProvider',
-        ],
+        ],*/
     ],
 
     /**
