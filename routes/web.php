@@ -27,6 +27,13 @@ Route::get(
 )
     ->name('chapter.view');
 
+Route::get(
+    'episodes/{episode:uuid}',
+    [EpisodePageController::class, 'index']
+)
+    //->middleware(CanSeeEpisode::class)
+    ->name('episode.play');
+
 //Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
