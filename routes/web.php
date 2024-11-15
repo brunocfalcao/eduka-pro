@@ -22,7 +22,7 @@ Route::get(
 )->name('course.view');
 
 Route::get(
-    'chapters/{chapter:id}',
+    'chapters/{chapter:uuid}',
     [ChapterPageController::class, 'index']
 )
     ->name('chapter.view');
